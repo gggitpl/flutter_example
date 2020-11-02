@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_example/logo_app_animated_widget.dart';
+import 'package:flutter_example/card_stack.dart';
 
 
 void main() {
   runApp(MaterialApp(
-    title: "logo app",
+    debugShowCheckedModeBanner: false,
     home: Scaffold(
-      body: LogoApp(),
+      body: CardStack(),
     ),
   ));
 }
